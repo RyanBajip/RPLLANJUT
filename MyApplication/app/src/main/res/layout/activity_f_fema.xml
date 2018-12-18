@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".f_fema"
+    android:background="@drawable/walpaper">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="15dp"
+        >
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            /// Jurusan ///
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:text="Pilih Jurusan  : "
+                    android:layout_marginTop="20dp"
+                    />
+                <Spinner
+                    android:layout_centerHorizontal="true"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:id="@+id/spinner1"
+                    android:layout_marginTop="20dp"
+                    >
+                </Spinner>
+            </TableRow>
+            /// Nama ///
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:text="Nama           : "
+                    />
+                <TextView
+                    android:id="@+id/nama"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:ems="10" />
+
+            </TableRow>
+
+            //Data Dosen
+            <TableRow>
+                <TextView
+                    android:layout_marginTop="15dp"
+                    android:text="Nama Dosen    :"
+                    />
+                <TextView
+                    android:text=""
+                    android:id="@+id/nama_dosen"
+                    />
+            </TableRow>
+            //Fakultas
+            <TableRow>
+                <TextView
+                    android:layout_marginTop="15dp"
+                    android:text="Fakultas          :"
+                    />
+                <TextView
+                    android:text=""
+                    android:id="@+id/fakultasdosen"
+                    />
+            </TableRow>
+            //Jurusan
+            <TableRow>
+                <TextView
+                    android:layout_marginTop="15dp"
+                    android:text="Jurusan            :"
+                    />
+                <TextView
+                    android:text=""
+                    android:id="@+id/jurusandosen"
+                    />
+            </TableRow>
+
+
+        </TableLayout>
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

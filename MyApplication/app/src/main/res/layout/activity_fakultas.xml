@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFACD"
+    tools:context=".FakultasActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="15dp"
+        >
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="90dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/logoipb" />
+
+        <TextView
+            android:layout_width="230dp"
+            android:layout_height="70dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="0dp"
+            android:text="   SI-DOSEN"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:textSize="40dp" />
+        //////////////1///////////////////////
+        <ImageButton
+            android:id="@+id/button_fmipa"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="140dp"
+            android:layout_marginLeft="14dp"
+            />
+
+        <ImageButton
+            android:id="@+id/button_faperta"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_alignTop="@+id/button_fmipa"
+            android:layout_toRightOf="@+id/button_fmipa"
+            android:layout_toEndOf="@+id/button_fmipa"
+            android:layout_marginLeft="19dp"
+            android:layout_marginStart="19dp" />
+
+        //////////////2////////////////////////
+        <ImageButton
+            android:id="@+id/button_fpik"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_below="@+id/button_faperta"
+            android:layout_alignStart="@+id/button_fmipa"
+            android:layout_marginTop="0dp" />
+        <ImageButton
+            android:id="@+id/button_fapet"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_alignTop="@+id/button_fpik"
+            android:layout_toRightOf="@+id/button_fpik"
+            android:layout_toEndOf="@+id/button_fpik"
+            android:layout_marginLeft="19dp"
+            android:layout_marginStart="19dp" />
+        ///////////////////3///////////////////////
+        <ImageButton
+            android:id="@+id/button_fkehutanan"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_below="@+id/button_fapet"
+            android:layout_alignStart="@+id/button_fpik"
+            android:layout_marginTop="0dp" />
+        <ImageButton
+            android:id="@+id/button_fem"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_alignTop="@+id/button_fkehutanan"
+            android:layout_toRightOf="@+id/button_fkehutanan"
+            android:layout_toEndOf="@+id/button_fkehutanan"
+            android:layout_marginLeft="19dp"
+            android:layout_marginStart="19dp" />
+        /////////////////////4////////////////////
+        <ImageButton
+            android:id="@+id/button_fema"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_below="@+id/button_fem"
+            android:layout_alignStart="@+id/button_fkehutanan"
+            android:layout_marginTop="0dp" />
+        <ImageButton
+            android:id="@+id/button_fkh"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_alignTop="@+id/button_fema"
+            android:layout_toRightOf="@+id/button_fema"
+            android:layout_toEndOf="@+id/button_fema"
+            android:layout_marginLeft="19dp"
+            android:layout_marginStart="19dp" />
+    </RelativeLayout>
+
+</ScrollView>

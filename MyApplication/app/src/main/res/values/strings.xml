@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">SI DOSEN</string>
+
+    <string-array name="fmipa">
+        <item>Statistika</item>
+        <item>Meteorologi Terapan</item>
+        <item>Biologi</item>
+        <item>Kimia</item>
+        <item>Ilmu Komputer</item>
+        <item> Biokimia</item>
+        <item> Matematika</item>
+        <item>  Fisika</item>
+    </string-array>
+
+    <string-array name="faperta">
+        <item>Agronomi dan Agrikultura</item>
+        <item>Proteksi Tanaman</item>
+        <item> Arsitektur Lansekap</item>
+    </string-array>
+
+    <string-array name="fpik">
+        <item>Teknologi dan Menejemen Perikanan Budidaya</item>
+        <item>Manajemen Sumber Daya Perairan</item>
+        <item>Teknologi Hasil Perairan</item>
+        <item>Teknologi dan Manajemen Perikanan Tangkap</item>
+        <item>Ilmu dan Teknologi Kelautan</item>
+    </string-array>
+
+    <string-array name="fapet">
+        <item>Teknologi Produksi Ternak</item>
+        <item>Nutrisi dan Teknologi Pakan</item>
+    </string-array>
+
+    <string-array name="fkehutanan">
+        <item>Manajemen Hutan</item>
+        <item>Teknologi Hasil Hutan</item>
+        <item>Konservasi Sumber Daya HUtan dan Ekowisata</item>
+        <item>Silvikultur</item>
+    </string-array>
+
+    <string-array name="fem">
+        <item> Ekonomi dan Studi Pembangunan</item>
+        <item> Manajemen</item>
+        <item>Agribisnis</item>
+        <item>Ekonomi Sumber Daya dan Lingkungan</item>
+        <item>Ekonomi Syariah</item>
+    </string-array>
+
+    <string-array name="fema">
+        <item>Ilmu Gizi</item>
+        <item>Ilmu Keluarga dan Komsumen</item>
+        <item>Komunikasi dan Pengembangan Masyarakat</item>
+    </string-array>
+
+    <string-array name="fkh">
+        <item>Kedokteran Hewan</item>
+
+    </string-array>
+</resources>
