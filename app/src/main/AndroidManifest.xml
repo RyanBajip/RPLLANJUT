@@ -43,7 +43,8 @@
             android:name=".f_fkh"
             android:label="Fakultas Kedokteran Hewan" />
         <activity android:name=".FakultasActivity" />
-        <activity android:name=".registerActivity"></activity>
+        <activity android:name=".registerActivity" />
+        <activity android:name=".fakultas_mipa"></activity>
     </application>
 
 </manifest>

@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
                 String usernameKey = username.getText().toString();
                 String passwordKey = password.getText().toString();
 
-                if (usernameKey.equals("admin") && passwordKey.equals("123")) {
+                if (usernameKey.equals("") && passwordKey.equals("")) {
 
                     //jika login berhasil
                     Toast.makeText(getApplicationContext(), "LOGIN SUKSES",
