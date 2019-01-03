@@ -110,6 +110,9 @@ public class MainActivity extends AppCompatActivity {
                     startActivity(kemain);
                     finish();
                 }
+                else {
+                    Toast.makeText(MainActivity.this,"aasdasd", Toast.LENGTH_SHORT).show();
+                }
             }
 
         } catch (JSONException e) {
